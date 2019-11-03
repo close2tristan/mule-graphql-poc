@@ -1,0 +1,57 @@
+{
+  "version": "1.1.0",
+  "artifactCoordinates": {
+    "groupId": "com.mulesoft.services",
+    "artifactId": "mule-module-graphql",
+    "version": "1.0.0-SNAPSHOT",
+    "type": "jar",
+    "classifier": "mule-plugin"
+  },
+  "dependencies": [
+    {
+      "artifactCoordinates": {
+        "groupId": "com.graphql-java",
+        "artifactId": "graphql-java",
+        "version": "6.0",
+        "type": "jar"
+      },
+      "uri": "repository/com/graphql-java/graphql-java/6.0/graphql-java-6.0.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.antlr",
+        "artifactId": "antlr4-runtime",
+        "version": "4.5.1",
+        "type": "jar"
+      },
+      "uri": "repository/org/antlr/antlr4-runtime/4.5.1/antlr4-runtime-4.5.1.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.slf4j",
+        "artifactId": "slf4j-api",
+        "version": "1.7.25",
+        "type": "jar"
+      },
+      "uri": "repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "com.graphql-java",
+        "artifactId": "java-dataloader",
+        "version": "2.0.1",
+        "type": "jar"
+      },
+      "uri": "repository/com/graphql-java/java-dataloader/2.0.1/java-dataloader-2.0.1.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.reactivestreams",
+        "artifactId": "reactive-streams",
+        "version": "1.0.1",
+        "type": "jar"
+      },
+      "uri": "repository/org/reactivestreams/reactive-streams/1.0.1/reactive-streams-1.0.1.jar"
+    }
+  ]
+}
